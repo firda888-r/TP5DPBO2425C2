@@ -1,10 +1,11 @@
 **Janji**
 Saya Firda Ridzki Utami dengan NIM 2401626 mengerjakan TP 5 dalam praktikum mata kuliah DPBO untuk keberkahannya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aaminn
 
-desain dan Alur kode program :
+Desain dan Alur kode program :
+
 Program Toko Fashion ini dibuat sudah terhubung langsung dengan **database MYSQL** Struktur utamanya terdiri dari dua kelas, yaitu ProductMenu yang berperan sebagai tampilan utama dan pengendali logika CRUD, serta Database yang menangani koneksi dan eksekusi query SQL. Pengguna dapat melakukan operasi tambah, ubah, hapus, dan menampilkan data produk melalui antarmuka grafis yang menampilkan tabel produk secara real time tanpa menggunakan ArrayList, melainkan langsung mengambil data dari database.
 
-data dari tabel product ditampilkan ke dalam JTable menggunakan method setTable(). Saat pengguna menekan tombol Add, sistem akan melakukan validasi untuk memastikan semua kolom telah diisi dan ID produk belum digunakan sebelumnya jika tidak sesuai maka saat user meng add data akan muncul promp id telah digunakan. Jika valid, data akan disimpan ke database menggunakan perintah INSERT. Data yang sudah tersimpan dapat diubah dengan menekan tombol Update, dan pengguna juga bisa menghapus data melalui tombol Delete setelah konfirmasi. Setelah setiap operasi, tabel akan diperbarui otomatis untuk menampilkan data terkini dari database lalu terdapat juga fitur validasi kolom kosong dengan dialog error saat melakukan insert atau update,
+Data dari tabel product ditampilkan ke dalam JTable menggunakan method setTable(). Saat pengguna menekan tombol Add, sistem akan melakukan validasi untuk memastikan semua kolom telah diisi dan ID produk belum digunakan sebelumnya jika tidak sesuai maka saat user meng add data akan muncul promp id telah digunakan. Jika valid, data akan disimpan ke database menggunakan perintah INSERT. Data yang sudah tersimpan dapat diubah dengan menekan tombol Update, dan pengguna juga bisa menghapus data melalui tombol Delete setelah konfirmasi. Setelah setiap operasi, tabel akan diperbarui otomatis untuk menampilkan data terkini dari database lalu terdapat juga fitur validasi kolom kosong dengan dialog error saat melakukan insert atau update,
 
 Screenshot hasil kode program :
 
